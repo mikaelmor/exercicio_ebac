@@ -19,6 +19,5 @@ Então deve exibir uma mensagem dizendo: "Erro ao tentar realizar o cadastro"
 
 Cenário: Ao tentar cadastrar com campos vazios, deve exibir mensagem de alerta. 
 Dado que eu acesse o Portal da EBAC-SHOP 
-Quando eu digitar o email no campo vazio 
-E a senha 
+Quando eu deixar campos vazios
 Então deve exibir uma mensagem de alerta
