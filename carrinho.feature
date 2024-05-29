@@ -10,9 +10,7 @@ Contexto:
 Dado que eu acesse a página da EBAC-SHOP
 
 Cenário: Seleções de cor, tamanho e quantidade devem ser obrigatórios
-Quando eu selecionar a cor "xx"
-E o tamanho "***"
-E a uma quantidade de "**"
+Quando deixar de preencher os campos obrigatórios 
 Então deverá exibir uma mensagem de alerta: "É obrigatório vc selecionar uma cor,tamanho e a quantidade que deseja"
 
 Cenário: Deve permitir apenas 10 produtos por venda
